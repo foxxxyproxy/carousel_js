@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="app-carousel">
+      <div class="slide">
+        <img
+          src="https://res.cloudinary.com/dbfn5lnvx/image/upload/q_auto,f_auto,w_1200/v1563569364/learnjavascript/projects/carousel/amsterdam1.jpg"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://res.cloudinary.com/dbfn5lnvx/image/upload/q_auto,f_auto,w_1200/v1563569364/learnjavascript/projects/carousel/amsterdam2.jpg"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://res.cloudinary.com/dbfn5lnvx/image/upload/q_auto,f_auto,w_1200/v1563569364/learnjavascript/projects/carousel/haarlem.jpg"
+        />
+      </div>
+    </div>
+
+    <button class="arrow arrow-left">
+      <svg
+        fill="var(--light-blue)"
+        xmlns="http://www.w3.org/2000/svg"
+        width="60"
+        height="60"
+        viewBox="0 0 24 24"
+      >
+        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+        <path d="M0 0h24v24H0z" fill="none" />
+      </svg>
+    </button>
+    <button class="arrow arrow-right">
+      <svg
+        fill="var(--light-blue)"
+        xmlns="http://www.w3.org/2000/svg"
+        width="60"
+        height="60"
+        viewBox="0 0 24 24"
+      >
+        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+        <path d="M0 0h24v24H0z" fill="none" />
+      </svg>
+    </button>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
